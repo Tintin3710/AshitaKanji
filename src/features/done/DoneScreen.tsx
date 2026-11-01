@@ -156,7 +156,7 @@ export default function DoneScreen(): React.ReactNode {
   });
 
   const memorizedNote =
-    newCount > 0 ? `오늘 외운 ${newCount}개는 내일 다시 확인해요.` : '내일 또 만나요.';
+    newCount > 0 ? `오늘 익힌 ${newCount}개는 내일 다시 확인해요.` : '내일 또 만나요.';
 
   // 보상 시퀀스는 세션·재료 조합이 바뀔 때만 돈다.
   // 영수증을 열었다 닫아도 이 키가 그대로면 재실행하지 않는다.
