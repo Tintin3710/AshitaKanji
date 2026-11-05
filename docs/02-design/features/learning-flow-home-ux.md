@@ -74,7 +74,7 @@
 | `src/features/study/components/StudyCard.tsx` | `variant="recall"` |
 | `src/features/study/components/StudyActions.tsx`, `StudyActionBar.tsx`, `src/types/Grade.ts` | 라벨: 다시 볼래요 / 한 번 익혔어요 |
 | `src/features/onigiri/TutorialScreen.tsx` | 튜토리얼 버튼 라벨을 새 라벨로 맞춤 |
-| `src/features/done/DoneScreen.tsx` | "오늘 외운" → "오늘 익힌" |
+| `src/features/done/DoneScreen.tsx` | "오늘 외운" → "오늘 익힌", "아직이라고 표시한 단어" → "다시 볼 단어" |
 | `src/features/onigiri/progress.ts` | `findIngredientRewardForSession` |
 | `src/features/home/HomeScreen.tsx`, `components/HomeSections.tsx` | 히어로 개편, `HomeActionCard` 2장 |
 | `src/visual/captureFixtures.ts` | 늘어난 `SessionState` 필드 반영 |

@@ -398,7 +398,7 @@ export default function DoneScreen(): React.ReactNode {
                 runKey={motionKey}
                 animated
               />
-              <SummaryRow label="아직이라고 표시한 단어" value={againCount} />
+              <SummaryRow label="다시 볼 단어" value={againCount} />
             </View>
 
             <Animated.Text style={[styles.memorized, { opacity: noteIn }]}>
